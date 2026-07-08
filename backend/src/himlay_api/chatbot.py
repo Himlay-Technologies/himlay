@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from himlay.backend.src.himlay_api.common.prompts import SYSTEM_PROMPT
+from .common.prompts import SYSTEM_PROMPT
 
 load_dotenv()
 
@@ -15,7 +15,8 @@ def get_chatbot_response(user_message: str, history: list) -> str:
         return "System Error: GROQ_API_KEY not configured on the server. Please add it to the .env file."
 
     try:
-        llm = ChatGroq(temperature=0.3, model_name="llama-3.3-70b-versatile", groq_api_key=GROQ_API_KEY)
+        # ChatGroq expects 'model' and 'api_key' parameters
+        llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=GROQ_API_KEY, temperature=0.3)
         # Build message history for Langchain
         messages = [("system", SYSTEM_PROMPT)]
 
@@ -25,7 +26,7 @@ def get_chatbot_response(user_message: str, history: list) -> str:
             messages.append((role, msg["content"]))
 
         # Add current message
-        messages.append(("human", "{user_message}"))
+        messages.append(("human", user_message))
 
         prompt = ChatPromptTemplate.from_messages(messages)
         chain = prompt | llm | StrOutputParser()

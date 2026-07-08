@@ -1,4 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#2563eb"/>
-  <path d="M8 22V10h4.2l3.8 7.2L19.8 10H24v12h-3.4v-7.1L16.9 22h-1.8l-3.7-7.1V22H8z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#071b4a" />
+      <stop offset="100%" stop-color="#02081f" />
+    </linearGradient>
+    <linearGradient id="gradBar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b2e82" />
+      <stop offset="100%" stop-color="#05143d" />
+    </linearGradient>
+    <linearGradient id="gradBar3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c63f2" />
+      <stop offset="100%" stop-color="#0e3791" />
+    </linearGradient>
+    
+    <linearGradient id="gradBar4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff9900" />
+      <stop offset="100%" stop-color="#f05900" />
+    </linearGradient>
+    <linearGradient id="gradBar5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7300" />
+      <stop offset="100%" stop-color="#d13800" />
+    </linearGradient>
+    <linearGradient id="gradBar6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f55500" />
+      <stop offset="100%" stop-color="#b32400" />
+    </linearGradient>
+  </defs>
+
+  <path d="M50,450 L50,380 L70,350 L70,320 L110,260 L110,450 Z" fill="url(#gradBar1)" />
+  
+  <path d="M130,450 L130,260 L190,170 L190,450 Z" fill="url(#gradBar2)" />
+  
+  <path d="M210,450 L210,140 L270,50 L270,450 Z" fill="url(#gradBar3)" />
+
+  <path d="M290,450 L290,140 L350,230 L350,450 Z" fill="url(#gradBar4)" />
+  
+  <path d="M370,450 L370,260 L430,350 L430,450 Z" fill="url(#gradBar5)" />
+  
+  <path d="M450,450 L450,380 L497,450 Z" fill="url(#gradBar6)" />
 </svg>

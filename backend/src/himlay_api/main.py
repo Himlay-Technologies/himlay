@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Dict
+import os
+from dotenv import load_dotenv
 
 try:
     from src.himlay_api import chatbot
@@ -12,18 +14,20 @@ from src.himlay_api.routes.booking import router as booking_router
 from src.himlay_api.routes.chat import router as chat_router
 from src.himlay_api.routes.checkout import router as checkout_router
 
+load_dotenv()
+url = os.getenv("url")
+url1= os.getenv("url1")
+url3 = os.getenv("url3")
 app = FastAPI(
     title="Himlay Technologies API",
     description="Backend API for Himlay Technologies dynamic pricing cart and AI Chatbot",
     version="1.0.0",
 )
 
-import os
-
 allowed_origins_env = os.getenv("ALLOWED_ORIGINS", "")
 origins = [origin.strip() for origin in allowed_origins_env.split(",") if origin.strip()]
 if not origins:
-    origins = ["http://localhost:5173", "http://localhost:3000"]  # fallback for local dev if not set
+    origins = [url, url1,url3]  # fallback for local dev if not set
 
 # Allow CORS for frontend
 app.add_middleware(
