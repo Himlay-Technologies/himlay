@@ -9,6 +9,7 @@ import {
   MessageSquare,
   CheckCircle2,
 } from "lucide-react";
+import { API_BASE_URL } from "@/utils/constants";
 
 export function BookConsultationPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -32,7 +33,7 @@ export function BookConsultationPage() {
     };
 
     try {
-      const response = await fetch("http://localhost:8000/api/book", {
+      const response = await fetch(`${API_BASE_URL}/api/book`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

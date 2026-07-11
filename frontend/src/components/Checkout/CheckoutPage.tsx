@@ -3,6 +3,7 @@ import { useSearchParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 import { CLOUD_PROVIDERS } from "@/utils/pricingData";
+import { API_BASE_URL } from "@/utils/constants";
 
 export function CheckoutPage() {
   const [searchParams] = useSearchParams();
@@ -30,7 +31,7 @@ export function CheckoutPage() {
     };
 
     try {
-      const response = await fetch("http://localhost:8000/api/checkout", {
+      const response = await fetch(`${API_BASE_URL}/api/checkout`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

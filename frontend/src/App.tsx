@@ -11,6 +11,7 @@ import { AIPage } from "@/components/Verticals/AIPage";
 import { SaaSPage } from "@/components/Verticals/SaaSPage";
 import { CheckoutPage } from "@/components/Checkout/CheckoutPage";
 import { BookConsultationPage } from "@/components/BookConsultation/BookConsultationPage";
+import { API_BASE_URL } from "@/utils/constants";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ export function App() {
     const PING_INTERVAL = 10 * 60 * 1000; // 10 minutes
     const pingBackend = async () => {
       try {
-        await fetch("http://localhost:8000/health");
+        await fetch(`${API_BASE_URL}/health`);
       } catch (e) {
         console.error("Keep-alive ping failed", e);
       }
