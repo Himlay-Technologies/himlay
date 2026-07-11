@@ -32,7 +32,14 @@ export function Navbar() {
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <nav className="flex items-center space-x-2">
+          <nav className="flex items-center space-x-4">
+            <a 
+              href="/Himlay_Technologies_Brochure.pdf" 
+              download="Himlay_Technologies_Brochure.pdf"
+              className="hover:text-primary/80 transition-colors font-medium text-primary text-sm"
+            >
+              Download Brochure
+            </a>
             <ThemeToggle />
             <Link
               to="/book-consultation"
