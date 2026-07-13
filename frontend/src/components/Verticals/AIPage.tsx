@@ -26,7 +26,7 @@ export function AIPage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Starter</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">AI Customer Support Chatbots for 24/7 engagement.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹35k+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹20k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Custom Knowledge Base Training', 'Website/App Integration', 'Human Handoff Protocol', 'Analytics Dashboard', 'Multilingual Support'].map((feature) => (
@@ -41,7 +41,7 @@ export function AIPage() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Recommended</div>
               <h3 className="text-2xl font-bold mb-2">Growth</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Internal AI Business Assistants & Workflow Automation.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹1L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹40k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Starter', 'Internal Employee AI Assistant', 'AI Content & Data Summarization', 'Workflow & Task Automation Engine', 'CRM / ERP Data Lookups via AI', 'Private API Infrastructure'].map((feature) => (
@@ -58,7 +58,7 @@ export function AIPage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Custom predictive models and autonomous agents.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹3L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹60k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Growth', 'Custom AI Recommendation Engines', 'Predictive Analytics Modeling', 'Autonomous Multi-Agent Systems', 'On-Premise / Secure Cloud Deployment', 'Fine-tuned Enterprise LLMs'].map((feature) => (

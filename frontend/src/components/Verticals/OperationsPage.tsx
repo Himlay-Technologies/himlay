@@ -42,7 +42,7 @@ export function OperationsPage() {
                 Essential operations for small growing teams.
               </p>
               <div className="mb-8">
-                <span className="text-4xl font-extrabold">₹1L+</span>
+                <span className="text-4xl font-extrabold">₹30k+</span>
               </div>
               <div className="flex-grow">
                 <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">
@@ -87,7 +87,7 @@ export function OperationsPage() {
                 businesses.
               </p>
               <div className="mb-8">
-                <span className="text-4xl font-extrabold">₹3L+</span>
+                <span className="text-4xl font-extrabold">₹50k+</span>
               </div>
               <div className="flex-grow">
                 <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">
@@ -142,7 +142,7 @@ export function OperationsPage() {
                 integrations.
               </p>
               <div className="mb-8">
-                <span className="text-4xl font-extrabold">₹8L+</span>
+                <span className="text-4xl font-extrabold">₹80k+</span>
               </div>
               <div className="flex-grow">
                 <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-muted-foreground">

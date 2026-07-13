@@ -62,10 +62,10 @@ export const SERVICES: Service[] = [
 ];
 
 export const POPULAR_PRODUCTS: Package[] = [
-  { name: "Clinic Management System", price: "₹1.5L" },
-  { name: "Custom CRM", price: "₹80k" },
-  { name: "E-commerce Store", price: "₹50k" },
-  { name: "AI Chatbot", price: "₹35k" },
+  { name: "Clinic Management System", price: "₹80k" },
+  { name: "Custom CRM", price: "₹30k" },
+  { name: "E-commerce Store", price: "₹30k" },
+  { name: "AI Chatbot", price: "₹20k" },
 ];
 
 export const CLOUD_PROVIDERS: CloudProvider[] = [
@@ -100,7 +100,7 @@ export const HOME_PRICING_TIERS = [
   {
     title: "Starter",
     description: "For small businesses establishing digital presence.",
-    price: "₹25k+",
+    price: "₹20k+",
     features: [
       "Basic UI/UX Design",
       "Essential Workflows",
@@ -113,7 +113,7 @@ export const HOME_PRICING_TIERS = [
   {
     title: "Growth",
     description: "For automation & systems to scale your operations.",
-    price: "₹80k+",
+    price: "₹40k+",
     features: [
       "Advanced Automations",
       "AI Implementations included",

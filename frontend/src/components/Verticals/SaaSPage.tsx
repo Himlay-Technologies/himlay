@@ -26,7 +26,7 @@ export function SaaSPage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Starter</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Standard LMS or MVP SaaS for early-stage startups.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹1L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹30k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['User Authentication & Roles', 'Stripe/Razorpay Integration', 'Basic Admin Dashboard', 'Course/Content Management', 'Email Notifications'].map((feature) => (
@@ -41,7 +41,7 @@ export function SaaSPage() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Recommended</div>
               <h3 className="text-2xl font-bold mb-2">Growth</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Scalable multi-tenant platforms with AI capabilities.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹3.5L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹60k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Starter', 'Multi-tenant Architecture', 'Advanced Subscription Tiers', 'AI Content Generation Tools', 'AI Personalized Learning Paths', 'User Analytics & Engagement Tracking'].map((feature) => (
@@ -58,7 +58,7 @@ export function SaaSPage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">High-availability microservices for millions of users.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹8L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹1L+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Growth', 'Microservices Architecture', 'SSO & Enterprise Security (SAML)', 'AI Proctoring & Certification', 'Custom API Gateway for Partners', 'Auto-scaling Cloud Infra (AWS/GCP)'].map((feature) => (

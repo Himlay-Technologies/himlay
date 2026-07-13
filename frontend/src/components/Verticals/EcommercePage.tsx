@@ -26,7 +26,7 @@ export function EcommercePage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Starter</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Standard e-commerce store for growing D2C brands.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹50k+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹30k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Custom Storefront Design', 'Product Catalog Management', 'Secure Checkout & Payments', 'Basic Order Management', 'Mobile Optimized UI'].map((feature) => (
@@ -41,7 +41,7 @@ export function EcommercePage() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Recommended</div>
               <h3 className="text-2xl font-bold mb-2">Growth</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Advanced e-commerce ecosystem with mobile apps and AI.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹1.5L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹50k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Starter', 'Mobile Shopping App (iOS/Android)', 'Abandoned Cart Automation', 'AI Product Recommendations', 'AI Support Chatbot Integration', 'Shopify/ERP Syncing'].map((feature) => (
@@ -58,7 +58,7 @@ export function EcommercePage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Multi-vendor marketplace infrastructure.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹6L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹1L+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Growth', 'Multi-Vendor Seller Portals', 'Automated Commission Splits', 'AI Fraud Detection & Review Analysis', 'High-load Distributed Architecture', 'Advanced BI & Logistics API'].map((feature) => (

@@ -28,7 +28,7 @@ export function MarketingPage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Starter</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Core CRM and lead tracking for sales teams.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹80k+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹30k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Sales Pipeline Management', 'Lead Tracking & Tagging', 'Basic Email Sequences', 'Customer Database', 'Standard Reporting'].map((feature) => (
@@ -46,7 +46,7 @@ export function MarketingPage() {
               <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Recommended</div>
               <h3 className="text-2xl font-bold mb-2">Growth</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Marketing automation with AI insights to scale campaigns.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹1.5L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹50k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Starter', 'Multi-channel Marketing Automation', 'Loyalty & Rewards Systems', 'AI Lead Scoring & Prioritization', 'AI Content Summarization for Sales', 'Advanced Analytics Dashboards'].map((feature) => (
@@ -63,7 +63,7 @@ export function MarketingPage() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.2 }} viewport={{ once: true }} className="glass-card rounded-2xl p-8 border border-border flex flex-col">
               <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
               <p className="text-muted-foreground text-sm mb-6 h-10">Omnichannel engagement platforms with predictive AI.</p>
-              <div className="mb-8"><span className="text-4xl font-extrabold">₹4L+</span></div>
+              <div className="mb-8"><span className="text-4xl font-extrabold">₹80k+</span></div>
               <div className="flex-grow">
                 <ul className="space-y-3 mb-8">
                   {['Everything in Growth', 'Custom Digital Wallet Systems', 'Predictive AI Customer Behavior Models', 'Third-party ERP/POS Integration', 'AI Recommendation Engines', 'Enterprise SLA & Dedicated Support'].map((feature) => (
